@@ -1,0 +1,1622 @@
+<!DOCTYPE html>
+<html lang="en-US" data-version="">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <meta name="description" content="UX Designer">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <title>Malwina Fojcik</title>
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link type="text/css" rel="stylesheet" href="wp-content/themes/semplice/css/reset.css">
+  <style data-fontset-id="ce-fontset" type="text/css">
+
+  </style>
+  <style id="ce-fontset" type="text/css">
+    body,
+    textarea,
+    input {
+      font-family: "Sofia Pro", Helvetica, Arial, sans-serif !important;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    .regular {
+      font-family: "Sofia Pro", Helvetica, Arial, sans-serif !important;
+      font-style: normal;
+      font-weight: 400;
+    }
+
+    .bold,
+    .wysiwyg-ce h1,
+    .wysiwyg-ce h2,
+    .wysiwyg-ce h3,
+    .wysiwyg-ce h4,
+    .wysiwyg-ce h5,
+    .wysiwyg-ce h6,
+    #semplice h1,
+    #semplice h2,
+    #semplice h3,
+    #semplice h4,
+    #semplice h5,
+    #semplice h6 {
+      font-family: "Sofia Pro", Helvetica, Arial, sans-serif;
+      font-style: normal;
+      font-weight: 900;
+    }
+
+    .custom_one {
+      font-family: "Playfair Display", Georgia, Times New Roman, serif !important;
+      font-style: normal;
+      font-weight: 900;
+    }
+
+    @media screen and (min-width: 480px) {
+      .mf-multi-column {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+      }
+    }
+
+    .mf-multi-column p {
+      color: #f7f7f7;
+      background-color: transparent;
+    }
+  </style>
+  <link type="text/css" rel="stylesheet" href="wp-content/themes/semplice/style.css">
+  <style type="text/css" id="semplice-custom-css">
+    .cover-2 .cover-headline h1 {
+      font-size: 56px !important;
+      line-height: 71px !important;
+    }
+
+    @media (min-width: 980px) and (max-width: 1199px) {
+      .cover-2 .cover-headline h1 {
+        font-size: 37.333333333333px !important;
+        line-height: 43.076923076923px !important;
+      }
+    }
+
+    @media (min-width: 768px) and (max-width: 979px) {
+      .cover-2 .cover-headline h1 {
+        font-size: 32.941176470588px !important;
+        line-height: 40px !important;
+      }
+    }
+
+    @media (max-width: 767px) {
+      .cover-2 .cover-headline h1 {
+        font-size: 21.538461538462px !important;
+        line-height: 25.454545454545px !important;
+      }
+    }
+
+    @media (max-width: 567px) {
+      .cover-2 .cover-headline h1 {
+        font-size: 16.470588235294px !important;
+        line-height: 18.666666666667px !important;
+      }
+    }
+
+    #content {
+      height: 100%;
+    }
+
+    .cover-2,
+    .cover-2 .cover-image,
+    .cover-2 .video-fadein {
+      background-color: #242424 !important;
+    }
+
+    .cover-2 .cover-image {
+      background-image: url(wp-content/uploads/2017/02/hero.jpg);
+    }
+
+    .cover-2 .cover-image {
+      opacity: 1;
+    }
+
+    .cover-2 .cover-image {
+      background-repeat: !important;
+    }
+
+    .cover-2 .cover-image {
+      background-size: cover;
+    }
+
+    .cover-2 .cover-image {
+      background-position: top center;
+    }
+
+    .cover-2 .cover-headline h1 {
+      color: #ffffff !important;
+    }
+
+    .cover-2 .cover-headline h1 {
+      text-transform: none !important;
+    }
+
+    .bar {
+      background: #d6ae8d !important;
+    }
+
+    .cover-2 .see-more .icon svg {
+      fill: #f6a092 !important;
+    }
+
+    .cover-2 .see-more:hover .icon {
+      transform: scale(1.15);
+      -ms-transform: scale(1.15);
+      -webkit-transform: scale(1.15);
+    }
+
+    #navbar-bg {
+      background: transparent !important;
+    }
+
+    #navbar .fluid-container {
+      left: 40px;
+      right: 40px;
+    }
+
+    #fullscreen-menu {
+      background: rgb(36, 36, 36);
+      background: rgba(36, 36, 36, 0.95);
+    }
+
+    #navbar-bg {
+      opacity: 0;
+    }
+
+    #navbar {
+      border-bottom: 1px solid transparent !important;
+    }
+
+    .transparent {
+      opacity: 0 !important;
+    }
+
+    @media (max-width: 767px) {
+      .transparent {
+        background: transparent !important;
+      }
+    }
+
+    #navbar .controls a .nav-icon {
+      background: #f6a092 !important;
+    }
+
+    #navbar .controls a svg {
+      fill: #f6a092 !important;
+    }
+
+    #fullscreen-menu .menu-inner nav ul li a,
+    .follow-links ul li a svg,
+    nav.standard ul li a {
+      letter-spacing: 0px !important;
+    }
+
+    #fullscreen-menu .menu-inner nav ul li a,
+    .follow-links ul li a svg,
+    nav.standard ul li a {
+      text-transform: none !important;
+    }
+
+    #fullscreen-menu .menu-inner nav ul li {
+      padding: 20px 0px;
+    }
+
+    #fullscreen-menu .menu-inner nav {
+      padding: 15px 0px;
+    }
+
+    #fullscreen-menu .menu-inner nav ul li a,
+    .follow-links ul li a svg,
+    nav.standard ul li a {
+      color: #ffffff !important;
+    }
+
+    .follow-links ul li a svg {
+      fill: #ffffff !important;
+    }
+
+    nav.standard ul li a {
+      text-decoration: none !important;
+    }
+
+    #fullscreen-menu .menu-inner nav ul li a {
+      border-color: transaprent !important;
+    }
+
+    #fullscreen-menu .menu-inner nav ul li.current-menu-item a,
+    #fullscreen-menu .menu-inner nav ul li.current_page_item a,
+    nav.standard ul li.current-menu-item a,
+    nav.standard ul li.current_page_item a,
+    #fullscreen-menu .menu-inner nav ul li.current-menu-item a:hover,
+    #fullscreen-menu .menu-inner nav ul li.current_page_item a:hover,
+    nav.standard ul li.current-menu-item a:hover,
+    nav.standard ul li.current_page_item a:hover,
+    .is-work nav.standard ul li.portfolio-grid a,
+    .is-work #fullscreen-menu .menu-inner nav ul li.portfolio-grid a {
+      color: #ffffff !important;
+    }
+
+    nav.standard ul li.current-menu-item a,
+    nav.standard ul li.current_page_item a,
+    nav.standard ul li.current-menu-item a:hover,
+    nav.standard ul li.current_page_item a:hover,
+    .is-work nav.standard ul li.portfolio-grid a {
+      text-decoration: line-through !important;
+    }
+
+    #fullscreen-menu .menu-inner nav ul li.current-menu-item a,
+    #fullscreen-menu .menu-inner nav ul li.current_page_item a,
+    #fullscreen-menu .menu-inner nav ul li.current-menu-item a:hover,
+    #fullscreen-menu .menu-inner nav ul li.current_page_item a:hover,
+    .is-work #fullscreen-menu .menu-inner nav ul li.portfolio-grid a {
+      border-color: #ffffff !important;
+    }
+
+    #fullscreen-menu .menu-inner nav ul li a:hover,
+    .follow-links ul li a svg,
+    nav.standard ul li a:hover {
+      color: #f6a092 !important;
+    }
+
+    .follow-links ul li a:hover svg {
+      fill: #f6a092 !important;
+    }
+
+    nav.standard ul li a:hover {
+      text-decoration: underline !important;
+    }
+
+    #fullscreen-menu .menu-inner nav ul li a:hover {
+      border-color: #ffffff !important;
+    }
+
+    nav.standard ul li a:hover {
+      background: #ffffff !important;
+    }
+
+    nav.standard ul li.current-menu-item a,
+    nav.standard ul li.current-menu-item a:hover,
+    .is-work nav.standard ul li.portfolio-grid a,
+    nav.standard ul li.current_page_item a,
+    nav.standard ul li.current_page_item a:hover {
+      background: #ffffff !important;
+    }
+
+    nav.standard ul li a {
+      font-size: 20px !important;
+    }
+
+    #fullscreen-menu {
+      height: 100%;
+    }
+
+    .menu-inner nav {
+      transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      position: absolute;
+      top: 50%;
+      width: 100%;
+    }
+
+    .follow-links {
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+    }
+
+    #fullscreen-menu .menu-inner nav ul li {
+      border: 0px !important;
+    }
+
+    #fullscreen-menu .menu-inner nav ul li {
+      text-align: center;
+    }
+
+    #fullscreen-menu .menu-inner .follow-links {
+      background: rgb(214, 174, 141);
+      background: rgba(214, 174, 141, 0);
+    }
+
+    #fullscreen-menu .menu-inner .follow-links ul li a {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+
+    #fullscreen-menu .menu-inner .follow-links {
+      border-top: 1px solid transparent !important;
+    }
+
+    #fullscreen-menu .menu-inner .follow-links ul li a {
+      padding-right: 10px;
+      padding-left: 10px;
+    }
+
+    #fullscreen-menu .menu-inner .follow-links ul li a svg {
+      fill: #ffffff !important;
+    }
+
+    #fullscreen-menu .menu-inner .follow-links ul li a:hover svg {
+      fill: #f6a092 !important;
+    }
+
+    #fullscreen-menu .menu-inner .follow-links ul li a:hover {
+      background: transparent !important;
+    }
+
+    .logo svg {
+      fill: #f6a092 !important;
+    }
+
+    .logo svg {
+      width: 54px;
+      height: 54px;
+    }
+
+    header {
+      top: -134px;
+    }
+
+    #navbar,
+    #navbar-bg,
+    .controls a,
+    .controls a span {
+      height: 134px;
+    }
+
+    #navbar .controls a .nav-icon {
+      margin-top: 67px !important;
+    }
+
+    .navbar-inner {
+      height: 134px;
+      overflow: hidden;
+    }
+
+    .controls a svg,
+    div.header-icon {
+      margin-top: 55px;
+    }
+
+    section#blog,
+    .post-password-form,
+    section#not-found {
+      margin-top: 134px !important;
+    }
+
+    #fullscreen-menu .menu-inner nav.align-top {
+      margin-top: 134px !important;
+      transform: none;
+      -webkit-transform: none;
+    }
+
+    .menu-style-nobutton ul li a,
+    nav.standard ul li a {
+      line-height: 134px !important;
+    }
+
+    .title-top {
+      top: 134px;
+    }
+
+    .share-box {
+      background: transparent !important;
+    }
+
+    .share-icons-wrapper p {
+      color: #000000 !important;
+    }
+
+    .share-icon a svg {
+      fill: #000000 !important;
+    }
+
+    .wysiwyg,
+    .wysiwyg p,
+    .wysiwyg pre,
+    .post-heading h2,
+    #post .wysiwyg .meta p span,
+    p.quote,
+    .wysiwyg h1,
+    .wysiwyg h2,
+    .wysiwyg h3,
+    .wysiwyg h4,
+    .wysiwyg h5,
+    .wysiwyg h6,
+    #category-archives h4,
+    h4#comments,
+    .comment-autor,
+    .comment-autor a,
+    .comment-time,
+    .comment-content p,
+    h3#reply-title,
+    .comments-pagination,
+    .meta p a,
+    section#comment h3#comments,
+    .no-results,
+    blockquote p,
+    .quote-container p,
+    .result-header h3 {
+      color: #0000ff!important;
+    }
+
+    .archives-close svg {
+      fill: #0000ff!important;
+    }
+
+    abbr,
+    acronym {
+      border-color: #0000ff !important;
+    }
+
+    #post .wysiwyg a,
+    .wysiwyg-ce a,
+    #post .wysiwyg p a,
+    p.quote a,
+    .next p a,
+    .previous p a,
+    a.page-numbers,
+    #category-archives nav ul li a,
+    .cover-headline a {
+      color: #f9b5aa!important;
+    }
+
+    #post .wysiwyg {
+      border-color: #f9b5aa!important;
+    }
+
+    #post .semplice-share .button a {
+      color: white !important;
+    }
+
+    #post .wysiwyg a:hover,
+    .wysiwyg-ce a:hover,
+    #post .wysiwyg p a:hover,
+    .post-heading p a:hover,
+    #post .wysiwyg .meta p a:hover,
+    p.quote a:hover,
+    #post .wysiwyg a.more-link:hover,
+    .description a.more-link:hover,
+    .next p a:hover,
+    .previous p a:hover,
+    #category-archives nav ul li a:hover,
+    a.comment-edit-link:hover,
+    a.comment-reply-link:hover,
+    a.page-numbers:hover,
+    section#category-archives nav ul li a:hover,
+    .cover-headline a:hover {
+      color: #f9b5aa!important;
+    }
+
+    #post .semplice-share .button a:hover {
+      color: white !important;
+    }
+
+    .post-heading h2 a,
+    .result-header h3,
+    #category-archives h2 {
+      color: #000000!important;
+    }
+
+    .post-heading p,
+    .post-heading p a,
+    #post .wysiwyg .meta p a {
+      color: #a0a0a0!important;
+    }
+
+    #comment {
+      background-color: #f9f9f9 !important;
+    }
+
+    form#commentform textarea,
+    form#commentform input {
+      background-color: #f9f9f9 !important;
+    }
+
+    form#commentform #submit,
+    form#commentform input,
+    form#commentform textarea {
+      color: #000000 !important;
+    }
+
+    form#commentform textarea::-webkit-input-placeholder {
+      color: #000000 !important;
+      opacity: .5 !important;
+    }
+
+    form#commentform textarea::-moz-placeholder {
+      color: #000000 !important;
+      opacity: .5 !important;
+    }
+
+    form#commentform textarea:-ms-input-placeholder {
+      color: #000000 !important;
+      opacity: .5 !important;
+    }
+
+    form#commentform textareainput:-moz-placeholder {
+      color: #000000 !important;
+      opacity: .5 !important;
+    }
+
+    form#commentform input::-webkit-input-placeholder {
+      color: #000000 !important;
+      opacity: .5 !important;
+    }
+
+    form#commentform input::-moz-placeholder {
+      color: #000000 !important;
+      opacity: .5 !important;
+    }
+
+    form#commentform input:-ms-input-placeholder {
+      color: #000000 !important;
+      opacity: .5 !important;
+    }
+
+    form#commentform inputinput:-moz-placeholder {
+      color: #000000 !important;
+      opacity: .5 !important;
+    }
+
+    form#commentform textarea,
+    form#commentform input {
+      border-color: #e0e0e0 !important;
+    }
+
+    #post .wysiwyg a.more-link,
+    .description a.more-link {
+      color: #acacac !important;
+    }
+
+    #post .wysiwyg a.more-link,
+    .description a.more-link {
+      border-color: #e6e6e6!important;
+    }
+
+    .edit-reply a {
+      color: #aaaaaa!important;
+    }
+
+    .edit-reply a {
+      border-color: #e6e6e6!important;
+    }
+
+    .post-divider {
+      background: #e6e6e6!important;
+    }
+
+    .post-password-form input,
+    .result-header,
+    #category-archives h4,
+    .comment-content,
+    pre,
+    tt,
+    code,
+    kbd,
+    blockquote,
+    .wysiwyg table,
+    .description table,
+    .wysiwyg-ce table,
+    .wysiwyg table th,
+    .wysiwyg table td,
+    .description table th,
+    .description table td,
+    .wysiwyg-ce table th,
+    .wysiwyg-ce table td {
+      border-color: #e6e6e6!important;
+    }
+
+    .search-field {
+      background: #ffffff!important;
+    }
+
+    .search-field {
+      border-color: #e6e6e6!important;
+    }
+
+    .search-field {
+      color: #000000!important;
+    }
+
+    .close-search svg {
+      fill: #000000 !important;
+    }
+
+    .search-form input::-webkit-input-placeholder {
+      color: #000000 !important;
+      opacity: 1;
+    }
+
+    .search-form input::-moz-placeholder {
+      color: #000000 !important;
+      opacity: 1;
+    }
+
+    .search-form input:-ms-input-placeholder {
+      color: #000000 !important;
+      opacity: 1;
+    }
+
+    body {
+      background-color: #f7f7f7 !important;
+    }
+
+    .to-the-top a svg {
+      fill: #f6a092 !important;
+    }
+
+    .no-gutter-grid-sizer {
+      width: 8.3333% !important;
+    }
+
+    .no-gutter-gutter-sizer {
+      width: 0px;
+    }
+
+    .remove-gutter-yes {
+      margin: 0px !important;
+    }
+
+    .masonry-span0 {
+      width: 0% !important;
+      float: left;
+    }
+
+    .masonry-span1 {
+      width: 8.3333% !important;
+      float: left;
+    }
+
+    .masonry-span2 {
+      width: 16.6667% !important;
+      float: left;
+    }
+
+    .masonry-span3 {
+      width: 25% !important;
+      float: left;
+    }
+
+    .masonry-span4 {
+      width: 33.3333% !important;
+      float: left;
+    }
+
+    .masonry-span5 {
+      width: 41.6667% !important;
+      float: left;
+    }
+
+    .masonry-span6 {
+      width: 50% !important;
+      float: left;
+    }
+
+    .masonry-span7 {
+      width: 58.3333% !important;
+      float: left;
+    }
+
+    .masonry-span8 {
+      width: 66.6667% !important;
+      float: left;
+    }
+
+    .masonry-span9 {
+      width: 75% !important;
+      float: left;
+    }
+
+    .masonry-span10 {
+      width: 83.3333% !important;
+      float: left;
+    }
+
+    .masonry-span11 {
+      width: 91.6667% !important;
+      float: left;
+    }
+
+    .masonry-span12 {
+      width: 100% !important;
+      float: left;
+    }
+
+    @media (max-width: 767px) {
+      .masonry-span1,
+      .masonry-span2,
+      .masonry-span3,
+      .masonry-span4,
+      .masonry-span5,
+      .masonry-span6,
+      .masonry-span7,
+      .masonry-span8,
+      .masonry-span9,
+      .masonry-span10,
+      .masonry-span11,
+      .masonry-span12 {
+        width: 100% !important;
+      }
+    }
+
+    .lightbox-overlay {
+      background-color: rgba(255, 255, 255, 0.98);
+      -webkit-animation: fadein 0.35s;
+      -moz-animation: fadein 0.35s;
+      -ms-animation: fadein 0.35s;
+      -o-animation: fadein 0.35s;
+      animation: fadein 0.35s;
+    }
+
+    @keyframes fadein {
+      from {
+        background-color: rgba(255, 255, 255, 0);
+      }
+      to {
+        background-color: rgba(255, 255, 255, 0.98);
+      }
+    }
+
+    @-moz-keyframes fadein {
+      from {
+        background-color: rgba(255, 255, 255, 0);
+      }
+      to {
+        background-color: rgba(255, 255, 255, 0.98);
+      }
+    }
+
+    @-webkit-keyframes fadein {
+      from {
+        background-color: rgba(255, 255, 255, 0);
+      }
+      to {
+        background-color: rgba(255, 255, 255, 0.98);
+      }
+    }
+
+    @-ms-keyframes fadein {
+      from {
+        background-color: rgba(255, 255, 255, 0);
+      }
+      to {
+        background-color: rgba(255, 255, 255, 0.98);
+      }
+    }
+
+    @-o-keyframes fadein {
+      from {
+        background-color: rgba(255, 255, 255, 0);
+      }
+      to {
+        background-color: rgba(255, 255, 255, 0.98);
+      }
+    }
+
+    .ce-button:hover {
+      cursor: pointer;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-47165114-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <link rel='stylesheet' id='sofia-pro-css' href='wp-content/themes/semplice-child/font/sofia-pro.css@ver=4.7.2.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='playfair-display-css' href='wp-content/themes/semplice-child/font/playfair-display.css@ver=4.7.2.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='child-style-css' href='wp-content/themes/semplice-child/style.css@ver=4.7.2.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='mediaelement-css' href='wp-includes/js/mediaelement/mediaelementplayer.min.css@ver=2.22.0.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='wp-mediaelement-css' href='wp-includes/js/mediaelement/wp-mediaelement.min.css@ver=4.7.2.css' type='text/css' media='all' />
+  <script type='text/javascript' src='wp-includes/js/jquery/jquery.js@ver=1.12.4'></script>
+  <script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min.js@ver=1.4.1'></script>
+  <link rel="canonical" href="http://www.malwinafojcik.com/" />
+  <!-- Facebook -->
+  <meta property="og:title" content="Malwina Fojcik" />
+  <meta property="og:url" content="http://www.malwinafojcik.com/" />
+  <meta property="og:site_name" content="Malwina Fojcik" />
+  <meta property="og:image" content="" />
+
+  <!-- bottom admin bar -->
+  <style>
+  html {
+      margin-top: 0px!important;
+    }
+
+    #wpadminbar {
+      top: auto!important;
+      bottom: 0;
+    }
+  }
+  </style>
+</head>
+
+<body class="home page-template-default page page-id-2">
+  <header>
+    <div id="navbar-bg" class="transparent" data-transparent-bar="true" data-navbar-opacity="0" data-dropdown-transparent="disabled">
+      <!-- header bar background -->
+    </div>
+    <div id="navbar">
+      <div class="fluid-container">
+        <div class="logo fluid-logo  fourty"><a id="logo" data-logo-height="54" class="has-logo" href="." title="Malwina Fojcik"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1346.5px" height="1346.5px" viewBox="33 -273.5 1346.5 1346.5" style="enable-background:new 33 -273.5 1346.5 1346.5;"
+	 xml:space="preserve">
+<path d="M233.5,593.5l154.6,85c0.7,0.4,1.3,0.6,1.7,0.8c0.1,0,0.2,0.1,0.3,0.1l0.6,0.6l2.7,0.3c0.9,0.1,1.9,0.2,3.1,0.2
+	c1,0,1.9-0.1,2.6-0.2c0.9-0.1,1.9-0.3,2.9-0.7h0.6l148.6-81.7l146.4,80.5c0.8,0.5,1.6,0.8,2,0.9c0.1,0,0.3,0.1,0.4,0.2
+	c0.4,0.2,0.8,0.4,1.2,0.5l0.1,0c0,0,0.1,0,0.1,0l1.4,0.3c0.8,0.1,1.8,0.3,2.9,0.3h0.3c1,0,1.8-0.1,2.6-0.2c1-0.1,1.9-0.3,2.3-0.5
+	c0.3-0.1,0.5-0.1,0.7-0.2h0.4l148.9-81.7l146.7,80.5c0.8,0.5,1.6,0.8,2,0.9c0.1,0,0.3,0.1,0.4,0.2c0.4,0.2,0.8,0.4,1.2,0.5l0.1,0
+	c0,0,0.1,0,0.1,0l1.4,0.3c0.7,0.1,1.8,0.3,2.9,0.3h0.3c1,0,1.8-0.1,2.6-0.2c1-0.1,1.9-0.3,2.3-0.5c0.2,0,0.3-0.1,0.5-0.1h0.8
+	l156.9-86.1c0.4-0.2,0.9-0.5,1.2-0.8l0.6-0.3l0.7-0.7l0,0c0.4-0.3,0.7-0.6,0.9-0.9l0.6-0.6c0.1-0.1,0.3-0.3,0.4-0.4l0.6,0l1.4-2.7
+	l0.4-0.4l0.2-0.6l0.2-0.3v-0.3l0.1-0.4c0-0.1,0.1-0.1,0.1-0.2c0,0,0-0.1,0-0.1l0.5-1v-0.3l0.1-0.2c0.3-1.1,0.4-2,0.4-2.7
+	c0-0.3,0.1-0.8,0.1-1.3V403.6c0.1-1.2,0-2.2-0.1-3c0-0.4-0.1-0.7-0.2-1.1c-0.1-0.7-0.4-1.5-0.7-2.2c-0.3-0.8-0.7-1.6-1.2-2.3
+	c-0.1-0.2-0.2-0.3-0.3-0.5c-0.8-1.3-1.8-2.4-2.6-3.2c-0.9-0.8-1.7-1.5-2.7-2.2l-2.1-1.3h-0.2L714.6,121.1l-0.1-0.1
+	c-5.2-2.8-11.3-2.8-16.4,0.1L235.3,387.8h-0.3l-2,1.3c0,0,0,0,0,0H232l-1.8,2l-2.6,2.8v0.4l-0.2,0.4c-0.1,0.2-0.3,0.4-0.4,0.7
+	l-0.4,0.8c-0.1,0.2-0.2,0.5-0.4,0.8c-0.1,0.2-0.2,0.4-0.2,0.6l-0.3,0.7c-0.5,1.3-0.7,2.9-0.7,4.6v175.8
+	C224.9,584.9,228.2,590.5,233.5,593.5z M999.3,498.2V636l-121.6-66.9V431.3L999.3,498.2z M844.5,431.2v137.9L722.7,636V498.1
+	L844.5,431.2z M689.5,498.2V636l-121.6-66.9V431.3L689.5,498.2z M534.7,431.2v137.9L413.2,636V498.1L534.7,431.2z M275.7,402.8
+	l430.6-248.3L1137,402.8l-121,66.6l-146.4-80.6c-0.6-0.4-1.2-0.6-1.7-0.8l-0.7-0.7l-2.8-0.3c-0.9-0.1-1.9-0.2-3.1-0.2
+	c-1,0-1.8,0.1-2.6,0.2c-1.2,0.1-2.1,0.4-2.5,0.6c-0.1,0-0.2,0.1-0.3,0.1h-0.7l-148.9,81.7l-146.5-80.5c-0.8-0.5-1.6-0.8-2-0.9
+	c-0.1,0-0.3-0.1-0.4-0.2c-0.3-0.2-0.7-0.3-1-0.4l-0.8-0.2l-1-0.2c-0.8-0.1-1.8-0.3-2.9-0.3h-0.3c-1,0-1.9,0.1-2.6,0.2
+	c-1,0.1-1.8,0.3-2.2,0.5c-0.3,0.1-0.5,0.1-0.7,0.2h-0.4l-148.8,81.7L275.7,402.8z M1032.6,636.1V498.1l121.7-66.8v137.9
+	L1032.6,636.1z M258.5,569.2V431.3L380,498.2v137.8L258.5,569.2z M33-273.5V1073h1346.5V-273.5H33z M1343.5,1037H69V-237.5h1274.5
+	V1037z"/>
+</svg></a></div>
+        <div class="fluid-menu ">
+          <div class="controls">
+            <a class="open-nav">
+              <span class="nav-icon"></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="fullscreen-menu" class="full-height">
+    <div class="menu-inner">
+      <nav class="fs-38px bold">
+        <ul id="menu-main-menu" class="menu">
+          <li id="menu-item-289" class="menu-item menu-item-type-post_type menu-item-object-work menu-item-289"><a href="work/bank/">Investment Banking Software</a></li>
+          <li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-work menu-item-232"><a href="work/uel/">University of East London</a></li>
+          <li id="menu-item-207" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-207"><a href="https://www.officeserve.com">OfficeServe</a></li>
+          <li id="menu-item-136" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-136"><a href="https://www.islington.gov.uk/children-and-families">Islington Council</a></li>
+        </ul>
+      </nav>
+      <div class="follow-links">
+        <ul>
+          <li><a class="behance social-link" href="https://www.behance.net/malwinafojcik" title="Behance" target="_blank"><svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 22 16" enable-background="new 0 0 22 16" xml:space="preserve">
+<g>
+	<path d="M6.38,1c0.647,0,1.231,0.057,1.765,0.174C8.676,1.289,9.129,1.48,9.512,1.741c0.377,0.262,0.672,0.61,0.883,1.048
+		c0.206,0.432,0.31,0.973,0.31,1.612c0,0.692-0.155,1.27-0.464,1.732C9.93,6.595,9.472,6.973,8.86,7.267
+		c0.833,0.243,1.45,0.671,1.859,1.28c0.411,0.613,0.612,1.346,0.612,2.206c0,0.697-0.131,1.297-0.394,1.801
+		c-0.265,0.511-0.626,0.925-1.07,1.244c-0.448,0.322-0.963,0.559-1.54,0.713c-0.57,0.154-1.162,0.231-1.768,0.231H0V1H6.38z
+		 M5.995,6.552c0.528,0,0.965-0.127,1.311-0.385c0.343-0.254,0.509-0.674,0.509-1.25c0-0.32-0.055-0.584-0.166-0.789
+		C7.534,3.923,7.382,3.762,7.189,3.65C6.999,3.533,6.783,3.452,6.534,3.409C6.288,3.36,6.031,3.341,5.767,3.341H2.98v3.211H5.995z
+		 M6.159,12.402c0.294,0,0.573-0.026,0.836-0.086c0.266-0.059,0.503-0.153,0.702-0.291c0.199-0.133,0.364-0.316,0.484-0.548
+		c0.12-0.23,0.178-0.529,0.178-0.891c0-0.708-0.196-1.211-0.587-1.517C7.382,8.767,6.86,8.618,6.219,8.618H2.98v3.784H6.159z"/>
+	<path d="M15.579,12.356c0.403,0.4,0.986,0.601,1.74,0.601c0.543,0,1.012-0.139,1.406-0.417c0.39-0.277,0.627-0.574,0.719-0.882
+		h2.37c-0.381,1.198-0.959,2.053-1.747,2.568C19.287,14.742,18.337,15,17.229,15c-0.772,0-1.466-0.127-2.09-0.377
+		c-0.623-0.253-1.144-0.608-1.582-1.07c-0.427-0.464-0.759-1.013-0.995-1.658c-0.234-0.641-0.352-1.351-0.352-2.121
+		c0-0.744,0.122-1.439,0.362-2.081c0.244-0.645,0.582-1.201,1.026-1.667c0.445-0.469,0.973-0.839,1.588-1.11
+		c0.615-0.269,1.293-0.405,2.043-0.405c0.829,0,1.555,0.162,2.177,0.492c0.62,0.325,1.129,0.766,1.528,1.319
+		c0.399,0.551,0.683,1.182,0.861,1.889c0.176,0.706,0.238,1.443,0.187,2.215h-7.071C14.912,11.212,15.174,11.956,15.579,12.356z
+		 M18.671,7.128c-0.32-0.36-0.862-0.554-1.523-0.554c-0.43,0-0.786,0.073-1.071,0.223c-0.279,0.148-0.507,0.332-0.681,0.548
+		c-0.174,0.22-0.292,0.453-0.361,0.701c-0.069,0.242-0.11,0.462-0.123,0.656h4.379C19.227,8.006,18.992,7.491,18.671,7.128z"/>
+	<rect x="14.362" y="1.922" width="5.485" height="1.356"/>
+</g>
+</svg>
+</a></li>
+          <li><a class="linkedin social-link" href="https://uk.linkedin.com/in/mfojcik" title="Linked In" target="_blank"><svg version="1.1" id="Ebene_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<g>
+	<g>
+		<path d="M14.815,0H1.181C0.529,0,0,0.517,0,1.153v13.693C0,15.483,0.529,16,1.181,16h13.634C15.467,16,16,15.483,16,14.845V1.153
+			C16,0.517,15.467,0,14.815,0z M4.745,13.634H2.371V5.999h2.374V13.634z M3.558,4.955c-0.761,0-1.376-0.617-1.376-1.376
+			c0-0.759,0.615-1.376,1.376-1.376c0.759,0,1.375,0.617,1.375,1.376C4.934,4.338,4.317,4.955,3.558,4.955z M13.633,13.634h-2.37
+			V9.921c0-0.886-0.017-2.025-1.234-2.025c-1.235,0-1.423,0.965-1.423,1.961v3.777H6.234V5.999H8.51v1.043h0.032
+			c0.317-0.6,1.091-1.233,2.246-1.233c2.401,0,2.845,1.581,2.845,3.638V13.634z"/>
+	</g>
+</g>
+</svg>
+</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="wrapper">
+    <div id="content">
+
+
+
+
+
+      <div class="cover-2 fullscreen-cover" data-bg-type="image" data-cover-id="2">
+        <div class="cover-image" data-parallax-scrolling="enabled"></div>
+        <div class="container">
+          <div class="row">
+            <div class="cover-headline span12 middle left" data-headline-format="text">
+              <h1 class="bold">
+                <p data-line-height="70px" style="color:#ffffff;">
+                  Hi, I’m Malwina and I design </br>beautiful, informed and</br> simple digital <span style="color:#d6ae8d;">experiences</span>.</p>
+              </h1>
+            </div>
+          </div>
+        </div>
+        <div class="see-more">
+          <div class="icon"><svg version="1.1" id="Ebene_2_1_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+<g>
+	<polygon points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 	"/>
+</g>
+</svg>
+          </div>
+        </div>
+      </div>
+      <!-- content fade -->
+      <div class="fade-content">
+
+
+
+        <div id="content-holder" class="">
+          <div id="content_7zt0jftzj" class="content-spacer" data-sort="1">
+
+
+
+
+            <div class="content-container" style="background-color: #242424;" data-content-id="content_7zt0jftzj" data-content-type="content-spacer">
+              <div class="hr-container" style="">
+                <div class="spacer spacer-full-width" style="height:5%;margin-top:64px;margin-bottom:64px;background-color:#ffffff;">
+                  <!-- Horizontal Rule -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="content_bkgsqh3xk" class="multi-column" data-sort="1">
+
+
+
+
+
+
+
+            <div class="mc-content-container" style="background-color: #242424;" data-content-id="content_bkgsqh3xk" data-content-type="multi-column">
+              <div id="masonry-content_bkgsqh3xk" class="masonry-full" style="background-color: transparent;">
+                <div class="masonry-full-inner" style="position: relative; width: 970px; height: 296px;">
+                  <div class="row">
+                    <div class="grid-sizer"></div>
+                    <div class="gutter-sizer"></div>
+                    <div class="span2 masonry-item remove-gutter-" style="background-color: transparent; position: absolute; left: 0px; top: 0px;">
+                      <div class="mc-sub-content-container" style="background-color: transparent;" data-content-id="content_bkgsqh3xk" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_59l0xc6ql" data-single-edit-column-id="#column_hw6awkzdf" data-single-edit-content-type="column-content-p">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div style="margin-bottom: 2em;" data-content-id="content_bkgsqh3xk" data-paragraph-id="content_bkgsqh3xk" data-content-type="multi-column" class="wysiwyg-ce  ">
+                          <p data-font-size="42px" data-line-height="40px"><span class="custom_one"><span style="color:#d6ae8d;">About me</span></span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span8 masonry-item">
+                      <div class="mc-sub-content-container mf-multi-column" data-content-id="content_bkgsqh3xk" data-content-type="multi-column" data-font-size="16px" data-line-height="2">
+                        <p>
+                          I like to make products with silky smooth interfaces that people will enjoy using again and again. I firmly believe that good design is all about asking the right questions. Starting a dialogue allows me to recognise people's needs and put myself in their shoes. That's why I question everything, especially my own ideas.
+                        </p>
+
+                        <p>
+                          Despite being comfortable with making my own design decisions I believe that the creative process and solving problems collaboratively is much more effective. I work hard on gaining people’s trust and finding the best way to communicate with every person in the team individually.
+                        </p>
+
+                        <p>
+                          I began my career as a graphic designer and pen and paper are my favourite tools to this day. Even if I am not responsible for the visual part of a project I never underestimate the value of good typography and graphical interface. I am always trying to find the balance between usefulness and attraction.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <script type="text/javascript">
+                (function($) {
+                  $(document).ready(function() {
+                    /* init masonry */
+                    var $grid = $("#masonry-content_bkgsqh3xk .masonry-full-inner");
+
+                    $grid = $grid.masonry({
+                      itemSelector: ".masonry-item",
+                      columnWidth: ".grid-sizer",
+                      gutter: ".gutter-sizer",
+                      transitionDuration: 0,
+                      isResizable: true,
+
+                      isFitWidth: true
+                    });
+
+                    /* layout Masonry after each image loads */
+                    $grid.imagesLoaded().progress(function() {
+                      $grid.masonry("layout");
+                    });
+
+                  });
+                })(jQuery);
+              </script>
+            </div>
+          </div>
+          <div id="content_31rcqs57z" class="content-spacer" data-sort="1">
+
+
+            <div class="content-container" style="padding-top: 2%; padding-bottom: 2%; background-color: rgb(36, 36, 36); display: block;" data-content-id="content_31rcqs57z" data-content-type="content-spacer">
+              <div class="hr-container" style="">
+                <div class="spacer spacer-full-width" style="margin-top:64px;margin-bottom:64px;background-color:#ffffff;">
+                  <!-- Horizontal Rule -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="content_1az5wd6hb" class="multi-column" data-sort="1">
+
+
+
+
+
+
+
+
+
+
+            <div class="mc-content-container" style="background-image: url(wp-content/uploads/2016/01/Triangle.png);background-repeat: no-repeat;background-size: cover;background-position: 50% 0%;background-color: transparent;" data-content-id="content_1az5wd6hb" data-content-type="multi-column">
+              <div id="masonry-content_1az5wd6hb" class="masonry-full" style="background-color: transparent;">
+                <div class="masonry-full-inner" style="position: relative; width: 970px; height: 1111px;">
+                  <div class="row">
+                    <div class="grid-sizer"></div>
+                    <div class="gutter-sizer"></div>
+                    <div class="span6 masonry-item remove-gutter-" style="background-color: transparent; position: absolute; left: 0px; top: 0px;">
+                      <div class="mc-sub-content-container" style="padding-top: 5%;padding-bottom: 5%;padding-right: 10%;padding-left: 10%;background-color: #f6a092;" data-content-id="content_1az5wd6hb" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_k26xqt1r3" data-single-edit-column-id="#column_qb3e5es1f" data-single-edit-content-type="column-content-img">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div class="column-image column-img-full center">
+                          <a class="ce-image-link" href="work/bank/" target="_self"><img class="ce-image" src="wp-content/uploads/2016/01/bank.png" alt="bank" style=""></a>
+                          <a class="ce-image-link" href="work/bank/" target="_self"><img class="live-image" src="wp-content/uploads/2016/01/bank.png" alt="bank" style="" /></a>
+                        </div>
+                      </div>
+                      <div class="mc-sub-content-container" style="background-color: transparent;" data-content-id="content_1az5wd6hb" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_xt5ajy6vf" data-single-edit-column-id="#column_qb3e5es1f" data-single-edit-content-type="column-content-p">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div data-content-id="content_1az5wd6hb" data-paragraph-id="content_1az5wd6hb" data-content-type="multi-column" class="wysiwyg-ce  ">
+                          <p data-font-size="14px" style="text-align: justify;" data-line-height="50px"><span style="color:#cf9c71;"><span class="regular">Investment bank internal software.&nbsp;</span></span><u><span class="regular"><a href="work/bank/"><span style="color:#f6a092;"><span class="bold">See case study</span></span></a></span></u></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span4 masonry-item remove-gutter-" style="background-color: transparent; position: absolute; left: 600px; top: 0px;">
+                      <div class="mc-sub-content-container" style="background-color: transparent;" data-content-id="content_1az5wd6hb" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_8t4zc2j6m" data-single-edit-column-id="#column_4x7346oob" data-single-edit-content-type="column-content-spacer">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div class="hr-container" style="">
+                          <div class="spacer spacer-full-width" style="height:1px;margin-top:64px;margin-bottom:64px;background-color:transparent;">
+                            <!-- Horizontal Rule -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span10 masonry-item remove-gutter-" style="background-color: transparent; position: absolute; left: 0px; top: 417px;">
+                      <div class="mc-sub-content-container" style="background-color: transparent;" data-content-id="content_1az5wd6hb" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_lfsw72lr4" data-single-edit-column-id="#column_f9fa0gndy" data-single-edit-content-type="column-content-spacer">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div class="hr-container" style="">
+                          <div class="spacer spacer-full-width" style="height:1px;margin-top:64px;margin-bottom:64px;background-color:transparent;">
+                            <!-- Horizontal Rule -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span4 masonry-item remove-gutter-" style="background-color: transparent; position: absolute; left: 0px; top: 546px;">
+                      <div class="mc-sub-content-container" style="background-color: transparent;" data-content-id="content_1az5wd6hb" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_tgoye5iq7" data-single-edit-column-id="#column_ybd8467wk" data-single-edit-content-type="column-content-spacer">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div class="hr-container" style="">
+                          <div class="spacer spacer-full-width" style="height:1px;margin-top:64px;margin-bottom:64px;background-color:transparent;">
+                            <!-- Horizontal Rule -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span6 masonry-item remove-gutter-" style="background-color: transparent; position: absolute; left: 400px; top: 546px;">
+                      <div class="mc-sub-content-container" style="background-color: #d6ae8d;" data-content-id="content_1az5wd6hb" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_kmc701ao0" data-single-edit-column-id="#column_w5werame2" data-single-edit-content-type="column-content-img">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div class="column-image column-img-full left">
+                          <a class="ce-image-link" href="work/uel/" target="_self"><img class="ce-image" src="wp-content/uploads/2016/01/uel.png" alt="uel" style=""></a>
+                          <a class="ce-image-link" href="work/uel/" target="_self"><img class="live-image" src="wp-content/uploads/2016/01/uel.png" alt="uel" style="" /></a>
+                        </div>
+                      </div>
+                      <div class="mc-sub-content-container" style="background-color: transparent;" data-content-id="content_1az5wd6hb" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_phbje6igo" data-single-edit-column-id="#column_w5werame2" data-single-edit-content-type="column-content-p">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div data-content-id="content_1az5wd6hb" data-paragraph-id="content_1az5wd6hb" data-content-type="multi-column" class="wysiwyg-ce  ">
+                          <p data-line-height="50px" data-font-size="14px">University of East London website. <span class="bold"><a href="work/uel/"><span style="color:#f6a092;">See case study</span></a>
+                            </span>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span10 masonry-item remove-gutter-" style="background-color: transparent; position: absolute; left: 0px; top: 982px;">
+                      <div class="mc-sub-content-container" style="background-color: transparent;" data-content-id="content_1az5wd6hb" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_o35xyiku1" data-single-edit-column-id="#column_usl5veq8l" data-single-edit-content-type="column-content-spacer">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div class="hr-container" style="">
+                          <div class="spacer spacer-full-width" style="height:1px;margin-top:64px;margin-bottom:64px;background-color:transparent;">
+                            <!-- Horizontal Rule -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <script type="text/javascript">
+                (function($) {
+                  $(document).ready(function() {
+                    /* init masonry */
+                    var $grid = $("#masonry-content_1az5wd6hb .masonry-full-inner");
+
+                    $grid = $grid.masonry({
+                      itemSelector: ".masonry-item",
+                      columnWidth: ".grid-sizer",
+                      gutter: ".gutter-sizer",
+                      transitionDuration: 0,
+                      isResizable: true,
+
+                      isFitWidth: true
+                    });
+
+                    /* layout Masonry after each image loads */
+                    $grid.imagesLoaded().progress(function() {
+                      $grid.masonry("layout");
+                    });
+
+                  });
+                })(jQuery);
+              </script>
+            </div>
+          </div>
+          <div id="content_gwud9hi10" class="multi-column" data-sort="1">
+
+
+
+
+
+
+
+            <div class="mc-content-container" style="background-color: transparent;" data-content-id="content_gwud9hi10" data-content-type="multi-column">
+              <div id="masonry-content_gwud9hi10" class="masonry-full" style="background-color: transparent;">
+                <div class="masonry-full-inner" style="position: relative; width: 970px; height: 204.531px;">
+                  <div class="row">
+                    <div class="grid-sizer"></div>
+                    <div class="gutter-sizer"></div>
+                    <div class="span3 masonry-item remove-gutter-" style="background-color: transparent; position: absolute; left: 0px; top: 0px;">
+                      <div class="mc-sub-content-container" style="background-color: transparent;" data-content-id="content_gwud9hi10" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_mubxyg42e" data-single-edit-column-id="#column_8ft7fooum" data-single-edit-content-type="column-content-spacer">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div class="hr-container" style="">
+                          <div class="spacer spacer-full-width" style="height:1px;margin-top:64px;margin-bottom:64px;background-color:transparent;">
+                            <!-- Horizontal Rule -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span1 masonry-item remove-gutter- masonry-offset" style="background-color: transparent; position: absolute; left: 300px; top: 0px;">
+                      <!-- Masonry offset -->
+                    </div>
+                    <div class="span3 masonry-item remove-gutter-" style="background-color: transparent; position: absolute; left: 400px; top: 0px;">
+                      <div class="mc-sub-content-container" style="background-color: transparent;" data-content-id="content_gwud9hi10" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_964wwm3cv" data-single-edit-column-id="#column_hop0t1563" data-single-edit-content-type="column-content-p">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div data-content-id="content_gwud9hi10" data-paragraph-id="content_gwud9hi10" data-content-type="multi-column" class="wysiwyg-ce  ">
+                          <p class="lineup" data-line-height="11px"><span class="bold" data-font-size="26px">Office Serve</span><br><span class="regular" data-font-size="12px">UX RESEARCH + PRODUCT DESIGN</span></p>
+                          <p data-line-height="22px" data-font-size="14px">Applied&nbsp;strategic thinking and designed effective, engaging end-to-end experiences which balance&nbsp;user needs and business goals.
+                            <a target="_blank" href="http://www.officeserve.com"> <span style="color:#f6a092;"><span class="bold">Go to OfficeServe website</span></span>
+                            </a>.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="span3 masonry-item remove-gutter-" style="background-color: transparent; position: absolute; left: 700px; top: 0px;">
+                      <div class="mc-sub-content-container" style="background-color: transparent;" data-content-id="content_gwud9hi10" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_drpx5jmz2" data-single-edit-column-id="#column_br6qk9u32" data-single-edit-content-type="column-content-p">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div data-content-id="content_gwud9hi10" data-paragraph-id="content_gwud9hi10" data-content-type="multi-column" class="wysiwyg-ce  ">
+                          <p class="lineup" data-line-height="11px"><span class="bold" data-font-size="26px">Islington Council</span><br><span class="regular" data-font-size="12px">UX RESEARCH + IA</span></p>
+                          <p data-line-height="22px" data-font-size="14px">Transformation of Children and Families section based on Islington’s citizens insights.
+                            <a target="_blank" href="https://www.islington.gov.uk/children-and-families"> <span style="color:#f6a092;"><span class="bold">Go to Council's&nbsp;website</span></span>
+                            </a>.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <script type="text/javascript">
+                (function($) {
+                  $(document).ready(function() {
+                    /* init masonry */
+                    var $grid = $("#masonry-content_gwud9hi10 .masonry-full-inner");
+
+                    $grid = $grid.masonry({
+                      itemSelector: ".masonry-item",
+                      columnWidth: ".grid-sizer",
+                      gutter: ".gutter-sizer",
+                      transitionDuration: 0,
+                      isResizable: true,
+
+                      isFitWidth: true
+                    });
+
+                    /* layout Masonry after each image loads */
+                    $grid.imagesLoaded().progress(function() {
+                      $grid.masonry("layout");
+                    });
+
+                  });
+                })(jQuery);
+              </script>
+            </div>
+          </div>
+          <div id="content_7njq0blbt" class="content-spacer" data-sort="1">
+            <div class="content-container" style="background-color: transparent; display: block;" data-content-id="content_7njq0blbt" data-content-type="content-spacer">
+              <div class="container">
+                <div class="row">
+                  <div class="spacer span12" style="height:1px;margin-top:64px;margin-bottom:64px;background-color:transparent;">
+                    <!-- Horizontal Rule -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fade-content footer">
+        <div id="footer-holder" class="">
+          <div id="content_up2eyuope" class="multi-column" data-sort="1">
+
+
+
+
+
+
+
+
+
+
+            <div class="mc-content-container" style="padding-top: 50px;padding-bottom: 80px;background-image: url(wp-content/uploads/2017/02/hero.jpg);background-repeat: no-repeat;background-position: 50% 0%;background-color: #242424;" data-content-id="content_up2eyuope" data-content-type="multi-column">
+              <div id="masonry-content_up2eyuope" class="masonry-full" style="background-color: transparent;">
+                <div class="masonry-full-inner" style="position: relative; width: 970px; height: 366px;">
+                  <div class="row">
+                    <div class="grid-sizer"></div>
+                    <div class="gutter-sizer"></div>
+                    <div class="span10 masonry-item remove-gutter-" style="background-color: transparent; position: absolute; left: 0px; top: 0px;">
+                      <div class="mc-sub-content-container" style="background-color: transparent;" data-content-id="content_up2eyuope" data-content-type="multi-column">
+                        <div class="single-edit" style="display: none;">
+                          <ul>
+                            <li><a class="edit-single" data-single-edit-content-id="column_content_yog4kclqg" data-single-edit-column-id="#column_hspy2yqjf" data-single-edit-content-type="column-content-p">Single Edit</a></li>
+                            <li><a class="edit-column">Column Edit</a></li>
+                          </ul>
+                        </div>
+                        <div data-content-id="content_up2eyuope" data-paragraph-id="content_up2eyuope" data-content-type="multi-column" class="wysiwyg-ce  ">
+                          <p data-font-size="56px" data-line-height="58px" style="text-align: center;"><span style="color:#cf9c71;"><span class="custom_one">Contact&nbsp;me</span> </span>
+                          </p>
+                          <p data-font-size="18px" data-line-height="36px" style="text-align: center;"><span style="color:#FFFFFF;"><span class="regular">If you’re looking for someone to work with or if you just want to say Hi, feel free to get in touch:</span></span><br><span class="semibold"><a href="mailto:hello@malwinafojcik.com?subject=Hi!"><span style="color:#f6a092;">hello@malwinafojcik.com</span></a><span style="color:#CEFFF7;">&nbsp;</span> <span style="color:#0000ff;">&nbsp;</span> <span style="color:#FDF1F0;">•</span> <span style="color:#FFFFFF;">&nbsp;</span> <span style="color:#d6ae8d;">&nbsp; </span><a target="_blank" href="https://www.behance.net/malwinafojcik"><span style="color:#f6a092;"> behance</span></a><span style="color:#f6a092;">&nbsp;</span> <span style="color:#0000ff;">&nbsp;</span> <span style="color:#FDF1F0;">•</span> <span style="color:#0000ff;">&nbsp;</span> <span style="color:#FFFFFF;">&nbsp;</span> <a href="https://uk.linkedin.com/in/mfojcik"><span style="color:#f6a092;"> linkedin</span></a><span style="color:#f6a092;"> </span><span style="color:#d6ae8d;">&nbsp;</span></span>
+                          </p>
+                          <p data-font-size="12px" data-line-height="32px">&nbsp;</p>
+                          <p data-font-size="13px" data-line-height="32px" style="text-align: center;"><span style="color:#666666;"><span class="light">© 2017&nbsp;MALWINA FOJCIK</span></span>
+                          </p>
+                          <p data-font-size="16px" data-line-height="32px" style="text-align: center;">&nbsp;</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <script type="text/javascript">
+                (function($) {
+                  $(document).ready(function() {
+                    /* init masonry */
+                    var $grid = $("#masonry-content_up2eyuope .masonry-full-inner");
+
+                    $grid = $grid.masonry({
+                      itemSelector: ".masonry-item",
+                      columnWidth: ".grid-sizer",
+                      gutter: ".gutter-sizer",
+                      transitionDuration: 0,
+                      isResizable: true,
+
+                      isFitWidth: true
+                    });
+
+                    /* layout Masonry after each image loads */
+                    $grid.imagesLoaded().progress(function() {
+                      $grid.masonry("layout");
+                    });
+
+                  });
+                })(jQuery);
+              </script>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content -->
+    </div>
+    <!-- wrapper -->
+  </div>
+  <div class="to-the-top">
+    <a class="top-button"><svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="53px" height="20px" viewBox="0 0 53 20" enable-background="new 0 0 53 20" xml:space="preserve">
+<g id="Ebene_3">
+</g>
+<g>
+	<polygon points="43.886,16.221 42.697,17.687 26.5,4.731 10.303,17.688 9.114,16.221 26.5,2.312 	"/>
+</g>
+</svg>
+</a>
+  </div>
+  <div class="overlay fade"></div>
+  <script type='text/javascript'>
+    /* <![CDATA[ */
+    var mejsL10n = {
+      "language": "en-US",
+      "strings": {
+        "Close": "Close",
+        "Fullscreen": "Fullscreen",
+        "Turn off Fullscreen": "Turn off Fullscreen",
+        "Go Fullscreen": "Go Fullscreen",
+        "Download File": "Download File",
+        "Download Video": "Download Video",
+        "Play": "Play",
+        "Pause": "Pause",
+        "Captions\/Subtitles": "Captions\/Subtitles",
+        "None": "None",
+        "Time Slider": "Time Slider",
+        "Skip back %1 seconds": "Skip back %1 seconds",
+        "Video Player": "Video Player",
+        "Audio Player": "Audio Player",
+        "Volume Slider": "Volume Slider",
+        "Mute Toggle": "Mute Toggle",
+        "Unmute": "Unmute",
+        "Mute": "Mute",
+        "Use Up\/Down Arrow keys to increase or decrease volume.": "Use Up\/Down Arrow keys to increase or decrease volume.",
+        "Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds.": "Use Left\/Right Arrow keys to advance one second, Up\/Down arrows to advance ten seconds."
+      }
+    };
+    var _wpmejsSettings = {
+      "pluginPath": "\/wp-includes\/js\/mediaelement\/"
+    };
+    /* ]]> */
+  </script>
+  <script type='text/javascript' src='wp-includes/js/mediaelement/mediaelement-and-player.min.js@ver=2.22.0'></script>
+  <script type='text/javascript' src='wp-includes/js/mediaelement/wp-mediaelement.min.js@ver=4.7.2'></script>
+  <script type='text/javascript'>
+    /* <![CDATA[ */
+    var semplice = {
+      "gallery_prev": "<svg version=\"1.1\" id=\"Ebene_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\"\r\n\twidth=\"18px\" height=\"40px\"  viewBox=\"0 0 18 40\" enable-background=\"new 0 0 18 40\" xml:space=\"preserve\">\r\n<g id=\"Ebene_2\">\r\n\t<g>\r\n\t\t<polygon points=\"16.3,40 0.3,20 16.3,0 17.7,1 2.5,20 17.7,39 \t\t\"\/>\r\n\t<\/g>\r\n<\/g>\r\n<\/svg>\r\n",
+      "gallery_next": "<svg version=\"1.1\" id=\"Ebene_1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\"\r\n\twidth=\"18px\" height=\"40px\" viewBox=\"0 0 18 40\" enable-background=\"new 0 0 18 40\" xml:space=\"preserve\">\r\n<g id=\"Ebene_2\">\r\n\t<g>\r\n\t\t<polygon points=\"0.3,39 15.5,20 0.3,1 1.7,0 17.7,20 1.7,40 \t\t\"\/>\r\n\t<\/g>\r\n<\/g>\r\n<\/svg>\r\n",
+      "lightbox_prev": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" preserveAspectRatio=\"xMidYMid\" width=\"30\" height=\"20\" viewBox=\"0 0 30 20\">\n  <path d=\"M29.255,10.804 L2.624,10.804 L10.327,18.696 C10.619,18.995 10.619,19.481 10.327,19.780 C10.181,19.930 9.989,20.005 9.798,20.005 C9.607,20.005 9.415,19.930 9.269,19.780 L0.290,10.580 C0.220,10.509 0.165,10.424 0.127,10.330 C0.090,10.238 0.071,10.141 0.071,10.043 C0.071,10.041 0.070,10.039 0.070,10.037 C0.070,10.035 0.071,10.034 0.071,10.032 C0.071,9.934 0.090,9.836 0.127,9.745 C0.165,9.650 0.220,9.565 0.290,9.494 L9.269,0.294 C9.561,-0.005 10.035,-0.005 10.327,0.294 C10.619,0.594 10.619,1.079 10.327,1.378 L2.624,9.270 L29.255,9.270 C29.669,9.270 30.003,9.613 30.003,10.037 C30.003,10.461 29.669,10.804 29.255,10.804 Z\"\/>\n<\/svg>\n",
+      "lightbox_next": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" preserveAspectRatio=\"xMidYMid\" width=\"30\" height=\"20\" viewBox=\"0 0 30 20\">\n  <path d=\"M29.873,9.745 C29.910,9.836 29.929,9.934 29.929,10.032 C29.929,10.034 29.930,10.035 29.930,10.037 C29.930,10.039 29.929,10.041 29.929,10.043 C29.929,10.141 29.910,10.238 29.873,10.330 C29.835,10.424 29.780,10.509 29.710,10.580 L20.731,19.780 C20.585,19.930 20.393,20.005 20.202,20.005 C20.011,20.005 19.819,19.930 19.673,19.780 C19.381,19.481 19.381,18.995 19.673,18.696 L27.376,10.804 L0.745,10.804 C0.331,10.804 -0.003,10.461 -0.003,10.037 C-0.003,9.613 0.331,9.270 0.745,9.270 L27.376,9.270 L19.673,1.378 C19.381,1.079 19.381,0.594 19.673,0.294 C19.965,-0.005 20.439,-0.005 20.731,0.294 L29.710,9.494 C29.780,9.565 29.835,9.650 29.873,9.745 Z\"\/>\n<\/svg>\n"
+    };
+    /* ]]> */
+  </script>
+  <script type='text/javascript' src='wp-content/themes/semplice/js/scripts.min.js@ver=4.7.2'></script>
+  <script type="text/javascript">
+    (function($) {
+
+      // back button fix (firefox) thx to Jesse from stack overfllow
+      $(window).unload(function() {
+        $(window).unbind('unload');
+      });
+      // back button fix (safari)
+      $(window).bind('pageshow', function(event) {
+        if (event.originalEvent.persisted) {
+          window.location.reload()
+        }
+      });
+
+      $(document).ready(function() {
+
+        /* ce images */
+        $('.ce-image').each(function() {
+          var parentTag = $(this).parent().get(0).tagName;
+          if (parentTag == 'A') {
+            $(this).parent().remove();
+          } else {
+            $(this).remove();
+          }
+        });
+
+        /* remove single edit div */
+        $('.single-edit').remove();
+
+        /* delete gallery brs */
+        $('.gallery br').each(function() {
+          $(this).remove();
+        });
+
+        /* image lightbox */
+        var showOverlay = function() {
+          $('<div class="lightbox-overlay"></div>').appendTo('body');
+        };
+
+        var hideOverlay = function() {
+          $('.lightbox-overlay').remove();
+        };
+
+        /* arrows */
+
+        var arrowsOn = function(instance, selector) {
+
+          var $arrows = $('<div class="lightbox-arrows"><a type="button" class="imagelightbox-arrow imagelightbox-arrow-left">' + semplice.lightbox_prev + '</a><a type="button" class="imagelightbox-arrow imagelightbox-arrow-right">' + semplice.lightbox_next + '</a></div>');
+
+          $arrows.appendTo('body');
+
+          // fade in
+          $('.lightbox-arrows').delay(200).fadeIn('slow');
+
+          $('.imagelightbox-arrow').on('click touchend', function(e) {
+            e.preventDefault();
+
+            var $this = $(this),
+              $target = $(selector + '[href="' + $('#imagelightbox').attr('src') + '"]'),
+              index = $target.index(selector);
+
+            if ($this.hasClass('imagelightbox-arrow-left')) {
+              index = index - 1;
+              if (!$(selector).eq(index).length)
+                index = $(selector).length;
+            } else {
+              index = index + 1;
+              if (!$(selector).eq(index).length)
+                index = 0;
+            }
+
+            instance.switchImageLightbox(index);
+            return false;
+          });
+        };
+
+        var arrowsOff = function() {
+          $('.lightbox-arrows').fadeOut('fast', function() {
+            $('.lightbox-arrows').remove();
+          });
+        };
+
+        /* blog gallery */
+        $('.gallery-icon a').each(function() {
+
+          /* check if attachment or media file type */
+          var isAttachment = $(this).attr('href').slice(-1);
+
+          if (isAttachment !== '/') {
+            $(this).attr('data-rel', 'lightbox');
+          }
+
+        });
+
+        var selectorG = 'a[data-rel^=lightbox]';
+        var instanceG = $(selectorG).imageLightbox({
+          selector: 'id="imagelightbox"',
+          allowedTypes: 'png|jpg|jpeg|gif|svg',
+          animationSpeed: 250,
+          preloadNext: true,
+          enableKeyboard: true,
+          quitOnEnd: false,
+          quitOnImgClick: false,
+          quitOnDocClick: true,
+          onStart: function() {
+            arrowsOn(instanceG, selectorG);
+            showOverlay();
+          },
+          onEnd: function() {
+            arrowsOff();
+            hideOverlay();
+          },
+          onLoadStart: false,
+          onLoadEnd: false
+        });
+
+
+        // content editor self hosted video and blog video
+        $(".live-video video, .live-audio audio, .wysiwyg video, .wysiwyg audio, .cover-video video").mediaelementplayer({
+
+          // options
+          pauseOtherPlayers: false,
+
+          success: function(mediaElement, domObject) {
+
+            // get media element
+            var $thisMediaElement = (mediaElement.id) ? $("#" + mediaElement.id) : $(mediaElement);
+
+            if ($thisMediaElement.attr('data-masonry-id')) {
+              // layout masonry to avoid overlapping
+              $('#masonry-' + $thisMediaElement.attr('data-masonry-id')).masonry('layout');
+            }
+
+            // empty poster image to avoid double images
+            $thisMediaElement.attr('poster', '');
+
+            // resize multicolumn on play if needed
+            mediaElement.addEventListener('canplay', function(e) {
+              $('#masonry-' + $thisMediaElement.attr('data-masonry-id')).masonry('layout');
+            }, false);
+
+            // show poster image after video finished
+            mediaElement.addEventListener("ended", function(e) {
+              $thisMediaElement.parents(".mejs-inner").find(".mejs-poster").show();
+            });
+          }
+        });
+      });
+    })(jQuery);
+  </script>
+</body>
+
+</html>

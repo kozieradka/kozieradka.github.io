@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Sofia Pro';
+  src:
+    local('Sofia Pro'),
+    local('SofiaPro-Regular'),
+    url(sofia-pro-regular-webfont.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  font-weight: 900;
+  src:
+    local('Sofia Pro Black'),
+    local('SofiaPro-Black'),
+    url(sofia-pro-black-webfont.woff) format('woff');
+}

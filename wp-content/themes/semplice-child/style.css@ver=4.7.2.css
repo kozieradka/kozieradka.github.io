@@ -1,0 +1,53 @@
+/**
+ * Theme Name: Malwina Fojcik
+ * Description: Child Theme for Semplice
+ * Author: Malwina Fojcik
+ * Template: semplice
+ */
+
+/* Custom CSS Start */
+
+p.case-study-title,
+p.linedheader {
+  margin-bottom: 15px;
+}
+
+.case-study-title:after {
+  content: '';
+  display: block;
+  width: 4.5em;
+  margin-top: 1.5em;
+  border-bottom: 0.08em solid #f6a092;
+}
+
+p.linedheader:after {
+  content: '';
+  display: block;
+  width: 4em;
+  margin-top: 0;
+  border-bottom: 0.12em solid #303030;
+  padding-bottom: 0.05em; 
+}
+
+p.lineup:after {
+  content: '';
+  display: block;
+  width: 4em;
+  margin-top: 0;
+  Border-top: 0.12em solid #303030;
+  Padding-top: 0.03em; 
+}
+
+p.white:after {
+  content: '';
+  display: block;
+  width: 4em;
+  margin-top: 0;
+  border-bottom: 0.12em solid #fff;
+  padding-bottom: 0.03em; 
+}
+
+
+
+
+/* Custom CSS End */
